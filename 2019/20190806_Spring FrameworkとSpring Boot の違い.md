@@ -24,7 +24,7 @@ Spring BootはSpring Frameworkでの面倒な設定を自動的にできる。�
     - 組込tomcat
         - 管理機能なども自分で持つことができる
 
-## 5. どのように自動設定(auto-configuration)されているか見る
+## 5. 実際にどのように自動設定(auto-configuration)されているか見る
 `Application.properties`に`debug=true`を追加して、実行すると以下のように表示され、自動設定されたものと、されなかったものが分かる([参考](https://www.baeldung.com/spring-boot-auto-configuration-report))
 ```
 .
